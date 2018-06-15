@@ -1,0 +1,7 @@
+#REFERENCES1.  https://gist.github.com/OscaRoa/c045c78dedc80f9637179179165115052.  https//stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response3.  https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python4.  https://stackoverflow.com/questions/48969954/how-to-get-most-popular-combination-set-of-values-and-their-count-from-csv-fil5.  http://www.datasciencemadesimple.com/join-or-concatenate-string-python-dataframe/6.  https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python7. McKinney, Wes.  Python for Data Analysis copyright 2018 William McKinney.  ISBN:  9781491957660
+8.  https://stackoverflow.com/questions/39876415/retrieving-data-from-pandas-based-on-iloc-and-user-input
+9.  https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+10. https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c
+11. http://www.marcelscharth.com/python/pandas1.html
+12. https://stackoverflow.com/questions/48395084/how-to-iterate-rows-in-pandas-dataframe-python-and-convert-each-row-to-string
+
