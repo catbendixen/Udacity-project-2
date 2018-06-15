@@ -225,24 +225,14 @@ def display_data(df):
               but without any value
     '''
     first = 0
-    last = 5
     while True:
-        display = input('\033[1m' + '\nWould you like to view individual trip data? '
-                        'Type in lowercase \'yes\' or \'no\'.\n' + '\033[0m')
-        if display == 'no':
+        ask_user = input('\033[1m' + '\nWould you like to view individual trip data? '
+                         '\'yes\' or \'no\'.\n' + '\033[0m').lower()
+        if ask_user == 'yes':
+            print(df.iloc[first:first+5])
+            first = first + 5
+        else:
             break
-        elif display == 'yes':
-            print(df[df.columns[0:-1]].iloc[first:last])
-        while True:
-            display_more = input('\033[1m' + '\nWould you like to view more individual'
-                                 ' trip data? Type \'yes\' or \'no\'.\n' + '\033[0m')
-            if display_more == 'no':
-                break
-            elif display_more == 'yes':
-                first += 5
-                last += 5
-                print(df[df.columns[0:-1]].iloc[first:last])
-                break
 
 def main():
     while True:
